@@ -1,6 +1,6 @@
 {
   "name": "ts-learning",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,9 @@
     "express": "^4.16.4",
     "lowdb": "^1.0.0",
     "uuid": "^3.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitalix89/VAuth.git"
   }
 }

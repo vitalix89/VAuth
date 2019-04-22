@@ -28,6 +28,11 @@ const users = new Map<string, User>();
 
 const sessions = new Map<string, Session>();
 
+
+export const test = () => {
+  console.log('test')
+}
+
 app.use(BodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
