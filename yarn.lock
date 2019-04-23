@@ -2121,6 +2121,41 @@ vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
+vauth-system@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/vauth-system/-/vauth-system-1.0.3.tgz#b90515c14c2720cf47a3689e131c0e2e7310aa2d"
+  integrity sha512-m1GSFyafOABxSq03yupe5LYgiqBVp8xWfl739S5VByW4JCdaND5wfrmfQQ/1IHaJDFAQncx4Q3qCNe3p/Fpssw==
+  dependencies:
+    "@types/uuid" "^3.4.4"
+    cookie-parser "^1.4.4"
+    express "^4.16.4"
+    lowdb "^1.0.0"
+    uuid "^3.3.2"
+
+vauth-system@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/vauth-system/-/vauth-system-1.0.4.tgz#391b6b99bedaa619a3dabdef693e09e263397884"
+  integrity sha512-a72Wpm6EFz+5G9/VGXYHxpBxBFa6WCafdZvGbhJX/F6f8ToLa+WsbSfnYKDCERF93yRIrKxA4apQQYQ/mSfdLQ==
+  dependencies:
+    "@types/uuid" "^3.4.4"
+    cookie-parser "^1.4.4"
+    express "^4.16.4"
+    lowdb "^1.0.0"
+    uuid "^3.3.2"
+    vauth-system "^1.0.3"
+
+vauth-system@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/vauth-system/-/vauth-system-1.0.5.tgz#162860b58a248c77219a7e5b91658dd68b166537"
+  integrity sha512-65PrL1KVgehUPGoxemx0xwmTQ7BDIZOs8cqbwDVuN33i6kq62nzRR4P8/l0G4Egjn5+kJb1IDNMXFf4IlijXMA==
+  dependencies:
+    "@types/uuid" "^3.4.4"
+    cookie-parser "^1.4.4"
+    express "^4.16.4"
+    lowdb "^1.0.0"
+    uuid "^3.3.2"
+    vauth-system "^1.0.4"
+
 which@^1.2.9:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/which/-/which-1.3.1.tgz#a45043d54f5805316da8d62f9f50918d3da70b0a"

@@ -1,8 +1,12 @@
 {
-  "name": "VAuth-System",
-  "version": "1.0.3",
+  "name": "vauth-system",
+  "version": "1.0.6",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon",
@@ -24,7 +28,8 @@
     "cookie-parser": "^1.4.4",
     "express": "^4.16.4",
     "lowdb": "^1.0.0",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "vauth-system": "^1.0.5"
   },
   "repository": {
     "type": "git",
