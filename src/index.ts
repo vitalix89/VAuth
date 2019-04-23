@@ -86,7 +86,7 @@ const db = new Map<string, Human>([["vitaly", { name: "Vitaly", age: 30 }]]);
 //   middleware(req: Express.Request, res: express.Response, next: express.NextFunction): void;
 // }
 
-class Bauth {
+export class Bauth {
   req?: Express.Request | undefined;
   res: Express.Response | undefined;
   constructor(private userCallback: (credentials: Credentials) => Human | undefined) {
